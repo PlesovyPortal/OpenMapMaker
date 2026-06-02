@@ -148,8 +148,8 @@ int main(int argc, char** argv)
 	Q_INIT_RESOURCE(resources);
 	
 	// QSettings on OS X benefits from using an internet domain here.
-	QCoreApplication::setOrganizationName(QString::fromLatin1("OpenOrienteering.org"));
-	QCoreApplication::setApplicationName(QString::fromLatin1("Mapper"));
+	QCoreApplication::setOrganizationName(QString::fromLatin1("Plesovy Portal"));
+	QCoreApplication::setApplicationName(QString::fromLatin1("OpenMapMaker"));
 	QGuiApplication::setApplicationDisplayName(APP_NAME + QString::fromUtf8(" " APP_VERSION));
 	
 #ifdef WIN32
