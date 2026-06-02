@@ -71,7 +71,7 @@ bool TemplateVisibility::hasAlpha() const
 // ### MapView ###
 
 const double MapView::zoom_in_limit = 512;
-const double MapView::zoom_out_limit = 1 / 16.0;
+const double MapView::zoom_out_limit = 1 / 1024.0;
 
 
 MapView::MapView(QObject* parent, Map* map)

@@ -136,9 +136,9 @@ namespace literal
 namespace
 {
 
-// Acceptable coord bounds on import, derived from printing UI bounds
-constexpr qint64 min_coord = -50000000;
-constexpr qint64 max_coord = +50000000;
+// Acceptable coord bounds on import (increased for large-scale maps)
+constexpr qint64 min_coord = -5000000000;
+constexpr qint64 max_coord = +5000000000;
 
 MapCoord::BoundsOffset bounds_offset;
 
