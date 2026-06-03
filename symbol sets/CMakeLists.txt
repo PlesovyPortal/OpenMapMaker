@@ -24,6 +24,8 @@ if(ANDROID)
 endif()
 
 set(Mapper_SYMBOL_SETS
+  "25000/Tourist_25000.omap"
+
   "10000/ISOM 2017-2_10000.omap"
   "15000/ISOM 2017-2_15000.omap"
   
